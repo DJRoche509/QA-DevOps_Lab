@@ -1,0 +1,3 @@
+Find the link to my Manual Testing documentation in the line bellow
+
+https://trello.com/invite/b/UZPjESCB/ATTId7b23d621d2cce08627b50048a2cc857DA87C73F/qa-devops
