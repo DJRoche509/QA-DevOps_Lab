@@ -22,8 +22,8 @@ var rollbar = new Rollbar({
 rollbar.log('Hello world!')
 
 // Set up middleware
-app.use(express.static(`${__dirname}/public`));
-// Or app.use(express.static('public'));
+// Or app.use(express.static(`${__dirname}/public`));
+app.use(express.static('public'));
 // Or app.use(express.static(path.join(__dirname,'./public')));
 
 app.use(express.json());
