@@ -63,7 +63,7 @@ const calculateHealthAfterAttack = ({ playerDuo, compDuo }) => {
   return {
     compHealth: compHealth - playerAttack,
     playerHealth: playerHealth - compAttack,
-  };Hea
+  };
 };
 
 app.get("/api/robots", (req, res) => {
