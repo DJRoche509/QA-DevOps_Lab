@@ -31,7 +31,7 @@ app.use(express.json());
 
 //entry point for our website
 app.get("/", (req,res) => {
-    res.sendFile(`${__dirname}/public/index.html`))
+    res.sendFile(`${__dirname}/public/index.html`)
 })
 // app.get('/styles', (req,res) => {
 //     res.sendFile(path.join(__dirname,'./public/styles.css'))
